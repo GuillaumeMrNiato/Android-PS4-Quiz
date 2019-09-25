@@ -1,0 +1,208 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">  
+    <StackLayout Margin="10,35,10,10">
+        <Label FontAttributes="Bold" FontSize="Body" Text="- PS4 Version -" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        <Label FontAttributes="Bold" FontSize="Default" Text="There are 10 questions in this Quiz" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        <Image Margin="0,50,0,0" x:Name="imgBanner" Source="ps4.png" ></Image>
+        <Label x:Name="lblDeviceName" FontAttributes="Bold" Text="Welcome " VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        
+        <Frame x:Name="question1" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="What is the latest publicy exploited firmware on the PS4 ? "></Label>
+                <Button x:Name="question1Answer1" Text="6.20" Clicked="Question1Answer1_Clicked"/>
+                <Button x:Name="question1Answer2" Text="5.50" Clicked="Question1Answer2_Clicked"/>
+                <Button x:Name="question1Answer3" Text="5.07" Clicked="Question1Answer1_Clicked_1"/>
+                <Button x:Name="question1Answer4" Text="4.74" Clicked="Question1Answer2_Clicked_1"/>
+
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question2" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="Who is the developer of ORBISMAN ? "></Label>
+                <Button x:Name="question2Answer1" Text="LightningMods" Clicked="LightningMods_Q2"/>
+                <Button x:Name="question2Answer2" Text="DEFAULTDNB" Clicked="DEFAULTDNBQ2"/>
+                <Button x:Name="question2Answer3" Text="Lapy" Clicked="LapyQ2"/>
+                <Button x:Name="question2Answer4" Text="Specter Dev" Clicked="SpecterQ2"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question3" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="What was the first firmware to be publicy exploited ? "></Label>
+                <Button x:Name="question3Answer1" Text="1.60" Clicked="Q160Q3"/>
+                <Button x:Name="question3Answer2" Text="2.00" Clicked="Q200Q3"/>
+                <Button x:Name="question3Answer3" Text="1.76" Clicked="Q176Q3"/>
+                <Button x:Name="question3Answer4" Text="1.70" Clicked="Q170Q3"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question4" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="PS4 Devkits are named : "></Label>
+                <Button x:Name="question4Answer1" Text="DUH-T" Clicked="DUHTQ4"/>
+                <Button x:Name="question4Answer2" Text="DUH-D" Clicked="DUHDQ4"/>
+                <Button x:Name="question4Answer3" Text="CUH" Clicked="CUHQ4"/>
+                <Button x:Name="question4Answer4" Text="DECR" Clicked="DECRQ4"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question5" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="What is the latest PS4 SDK leaked to the public ? "></Label>
+                <Button x:Name="question5Answer1" Text="4.50" Clicked="Q450Q5"/>
+                <Button x:Name="question5Answer2" Text="5.50" Clicked="Q550Q5"/>
+                <Button x:Name="question5Answer3" Text="6.00" Clicked="Q600Q5"/>
+                <Button x:Name="question5Answer4" Text="1.50" Clicked="Q150Q5"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question6" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="Who released the 5.05 kexploit ? "></Label>
+                <Button x:Name="question6Answer1" Text="m0rph3us1987" Clicked="m0rph3us1987Q6"/>
+                <Button x:Name="question6Answer2" Text="AlAzif" Clicked="AlAzifQ6"/>
+                <Button x:Name="question6Answer3" Text="TheFloW" Clicked="TheFloWQ6"/>
+                <Button x:Name="question6Answer4" Text="qwertyoruiopz / SpecterDev" Clicked="SPECTQWERTQ6"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question7" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="Who released PS4 Xplorer ? "></Label>
+                <Button x:Name="question7Answer1" Text="Silica" Clicked="SilicaQ7"/>
+                <Button x:Name="question7Answer2" Text="MrNiato" Clicked="MrNiatoQ7"/>
+                <Button x:Name="question7Answer3" Text="Lapy" Clicked="LapyQ7"/>
+                <Button x:Name="question7Answer4" Text="DEFAULTDNB" Clicked="DEFAULTDNBQ7"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question8" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="When was 5.05/5.07 kexploit released ? "></Label>
+                <Button x:Name="question8Answer1" Text="December 2017" Clicked="DECQ8"/>
+                <Button x:Name="question8Answer2" Text="February 2018" Clicked="FEBQ8"/>
+                <Button x:Name="question8Answer3" Text="May 2018" Clicked="MAYQ8"/>
+                <Button x:Name="question8Answer4" Text="October 2017" Clicked="OCTQ8"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question9" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="But, when was 5.05 update released ? "></Label>
+                <Button x:Name="question9Answer1" Text="January 10th 2018" Clicked="JAN10Q9"/>
+                <Button x:Name="question9Answer2" Text="January 18th 2018" Clicked="JAN18Q9"/>
+                <Button x:Name="question9Answer3" Text="January 28th 2018" Clicked="JAN28Q9"/>
+                <Button x:Name="question9Answer4" Text="January 24th 2018" Clicked="JAN24Q9"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question10" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="Who own sce.party ? "></Label>
+                <Button Text="0x199" Clicked="Q0x199Q10"/>
+                <Button Text="LightningMods" Clicked="LightningMods_Q10"/>
+                <Button Text="Greg Rasputin" Clicked="GregQ10"/>
+                <Button Text="PSXHAX" Clicked="PSXHAXQ10"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question11" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="Who own Darksoftware ? "></Label>
+                <Button Text="0x199" Clicked="Q0x199Q11"/>
+                <Button Text="LightningMods" Clicked="LightningMods_Q11"/>
+                <Button Text="Greg Rasputin" Clicked="GregQ11"/>
+                <Button Text="PSXHAX" Clicked="PSXHAXQ11"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question12" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="Who owned Playstation Hax ? "></Label>
+                <Button Text="0x199" Clicked="Q0x199Q12"/>
+                <Button Text="LightningMods" Clicked="LightningMods_Q12"/>
+                <Button Text="Greg Rasputin" Clicked="GregQ12"/>
+                <Button Text="PSXHAX" Clicked="PSXHAXQ12"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question13" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="When was 4.55 kexploit released ? "></Label>
+                <Button Text="January 2018" Clicked="JANQ13"/>
+                <Button Text="February 2018" Clicked="FEBQ13"/>
+                <Button Text="March 2018" Clicked="MARCHQ13"/>
+                <Button Text="April 2018" Clicked="APRQ13"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question14" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="But, when was 4.55 update released ? "></Label>
+                <Button Text="11st April 2017" Clicked="Q11Q14"/>
+                <Button Text="20th April 2017" Clicked="Q20Q14"/>
+                <Button Text="24th April 2017" Clicked="Q24Q14"/>
+                <Button Text="26th April 2017" Clicked="Q26Q14"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question15" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="Who own 2 Devkits in the scene ? "></Label>
+                <Button Text="MrNiato" Clicked="MrNiatoQ15"/>
+                <Button Text="Z80" Clicked="Z80Q15"/>
+                <Button Text="Zecoxao" Clicked="ZECOQ15"/>
+                <Button Text="0x199" Clicked="Q0X199Q15"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question16" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="Who own 2 Testkit in the scene ? "></Label>
+                <Button Text="MrNiato" Clicked="MrNiatoQ16"/>
+                <Button Text="Z80" Clicked="Z80Q16"/>
+                <Button Text="Zecoxao" Clicked="ZECOQ16"/>
+                <Button Text="0x199" Clicked="Q0X199Q16"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question17" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="Who developed ReactPSPLUS ? "></Label>
+                <Button Text="Zecoxao" Clicked="ZECOQ17"/>
+                <Button Text="Zer0xFF" Clicked="ZER0Q17"/>
+                <Button Text="DEFAULTDNB" Clicked="DEFAULTQ17"/>
+                <Button Text="CelesteBlue" Clicked="CELESTEQ17"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question18" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="Who developed ReactPSPLUS ? "></Label>
+                <Button Text="Zecoxao" Clicked="ZECOQ17"/>
+                <Button Text="Zer0xFF" Clicked="ZER0Q17"/>
+                <Button Text="DEFAULTDNB" Clicked="DEFAULTQ17"/>
+                <Button Text="CelesteBlue" Clicked="CELESTEQ17"/>
+            </StackLayout>
+        </Frame>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <Frame x:Name="question50" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="Who showed a 6.50 kernel string ? "></Label>
+                <Button Text="Fire30_" Clicked="Fire30Q50"/>
+                <Button Text="MathieuLH" Clicked="MathieuQ50"/>
+                <Button Text="SpecterDev" Clicked="SpecterQ50"/>
+                <Button Text="AlAzif" Clicked="AlAzifQ50"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="scoreframe" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="It's over !" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+                <Label x:Name="scorelabel" FontAttributes="Bold" Text="Here is your score : " VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            </StackLayout>
+        </Frame>
+        
+        <Label x:Name="scorelabelingame" FontAttributes="Bold" Text="Here is your score : " VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        
+        <BoxView VerticalOptions="EndAndExpand" HorizontalOptions="Center" HeightRequest="1" WidthRequest="700" Color="#5b5d68"></BoxView>
+        <Label FontAttributes="Bold" Text="Created By Guillaume MrNiato " VerticalOptions="EndAndExpand" HorizontalOptions="Center"></Label>
+    </StackLayout>
+</ContentPage>
