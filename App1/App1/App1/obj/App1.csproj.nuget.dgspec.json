@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\boost\\Desktop\\Android-PS4-Quiz-1.00-master\\Android-PS4-Quiz-1.00-master\\App1\\App1\\App1\\App1.csproj": {}
+    "C:\\Users\\boost\\Documents\\GitHub\\Android-PS4-Quiz-1.00\\App1\\App1\\App1\\App1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\boost\\Desktop\\Android-PS4-Quiz-1.00-master\\Android-PS4-Quiz-1.00-master\\App1\\App1\\App1\\App1.csproj": {
+    "C:\\Users\\boost\\Documents\\GitHub\\Android-PS4-Quiz-1.00\\App1\\App1\\App1\\App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\boost\\Desktop\\Android-PS4-Quiz-1.00-master\\Android-PS4-Quiz-1.00-master\\App1\\App1\\App1\\App1.csproj",
+        "projectUniqueName": "C:\\Users\\boost\\Documents\\GitHub\\Android-PS4-Quiz-1.00\\App1\\App1\\App1\\App1.csproj",
         "projectName": "PS4 Quiz 1.0",
-        "projectPath": "C:\\Users\\boost\\Desktop\\Android-PS4-Quiz-1.00-master\\Android-PS4-Quiz-1.00-master\\App1\\App1\\App1\\App1.csproj",
+        "projectPath": "C:\\Users\\boost\\Documents\\GitHub\\Android-PS4-Quiz-1.00\\App1\\App1\\App1\\App1.csproj",
         "packagesPath": "C:\\Users\\boost\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\boost\\Desktop\\Android-PS4-Quiz-1.00-master\\Android-PS4-Quiz-1.00-master\\App1\\App1\\App1\\obj\\",
+        "outputPath": "C:\\Users\\boost\\Documents\\GitHub\\Android-PS4-Quiz-1.00\\App1\\App1\\App1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

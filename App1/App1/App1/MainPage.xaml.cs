@@ -2,7 +2,6 @@
 using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Essentials;
-using System.Threading;
 
 namespace App1
 {
@@ -36,8 +35,7 @@ namespace App1
             #endregion
             lblDeviceName.Text = "Welcome : " + DeviceInfo.Name + " at my Quiz !";
             scorelabelingame.Text = "Here is your score : " + score.ToString() + " /10";
-        }
-       
+        }      
         #region Question 1
         private void Question1Answer1_Clicked(object sender, EventArgs e)
         {
@@ -562,6 +560,68 @@ namespace App1
         {
             question17.IsVisible = false;
             question18.IsVisible = true;
+            DisplayAlert("Information", "Incorrect answer !", "Ok");
+            scorelabelingame.Text = "Here is your score : " + score.ToString() + " /10";
+        }
+        #endregion
+        #region Question 18
+        private void FATQ18(object sender, EventArgs e)
+        {
+            question18.IsVisible = false;
+            question19.IsVisible = true;
+            DisplayAlert("Information", "Incorrect answer !", "Ok");
+            scorelabelingame.Text = "Here is your score : " + score.ToString() + " /10";
+        }
+        private void SLIMQ18(object sender, EventArgs e)
+        {
+            question18.IsVisible = false;
+            question19.IsVisible = true;
+            DisplayAlert("Information", "Incorrect answer !", "Ok");
+            scorelabelingame.Text = "Here is your score : " + score.ToString() + " /10";
+        }
+        private void ULTRAQ18(object sender, EventArgs e)
+        {
+            question18.IsVisible = false;
+            question19.IsVisible = true;
+            score = score + 1;
+            DisplayAlert("Information", "Good answer !", "Ok");
+            scorelabelingame.Text = "Here is your score : " + score.ToString() + " /10";
+        }
+        private void PROQ18(object sender, EventArgs e)
+        {
+            question18.IsVisible = false;
+            question19.IsVisible = true;
+            DisplayAlert("Information", "Incorrect answer !", "Ok");
+            scorelabelingame.Text = "Here is your score : " + score.ToString() + " /10";
+        }
+        #endregion
+        #region Question 19
+        private void KURTQ20(object sender, EventArgs e)
+        {
+            question20.IsVisible = false;
+            question21.IsVisible = true;
+            DisplayAlert("Information", "Incorrect answer !", "Ok");
+            scorelabelingame.Text = "Here is your score : " + score.ToString() + " /10";
+        }
+        private void ZECOQ20(object sender, EventArgs e)
+        {
+            question20.IsVisible = false;
+            question21.IsVisible = true;
+            DisplayAlert("Information", "Incorrect answer !", "Ok");
+            scorelabelingame.Text = "Here is your score : " + score.ToString() + " /10";
+        }
+        private void BISOONQ20(object sender, EventArgs e)
+        {
+            question20.IsVisible = false;
+            question21.IsVisible = true;
+            score = score + 1;
+            DisplayAlert("Information", "Good answer !", "Ok");
+            scorelabelingame.Text = "Here is your score : " + score.ToString() + " /10";
+        }
+        private void IMCSXQ20(object sender, EventArgs e)
+        {
+            question20.IsVisible = false;
+            question21.IsVisible = true;
             DisplayAlert("Information", "Incorrect answer !", "Ok");
             scorelabelingame.Text = "Here is your score : " + score.ToString() + " /10";
         }

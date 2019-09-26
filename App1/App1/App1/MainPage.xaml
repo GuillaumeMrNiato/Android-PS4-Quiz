@@ -2,8 +2,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.MainPage">  
     <StackLayout Margin="10,35,10,10">
-        <Label FontAttributes="Bold" FontSize="Body" Text="- PS4 Version -" VerticalOptions="Center" HorizontalOptions="Center"></Label>
-        <Label FontAttributes="Bold" FontSize="Default" Text="There are 10 questions in this Quiz" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        <Label FontAttributes="Bold" FontSize="Body" Text="- PS4 Edition -" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        <Label FontAttributes="Bold" FontSize="Default" Text="There are 50 questions in this Quiz" VerticalOptions="Center" HorizontalOptions="Center"></Label>
         <Image Margin="0,50,0,0" x:Name="imgBanner" Source="ps4.png" ></Image>
         <Label x:Name="lblDeviceName" FontAttributes="Bold" Text="Welcome " VerticalOptions="Center" HorizontalOptions="Center"></Label>
         
@@ -163,11 +163,29 @@
         </Frame>
         <Frame x:Name="question18" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
             <StackLayout Orientation="Vertical">
-                <Label FontAttributes="Bold" Text="Who developed ReactPSPLUS ? "></Label>
-                <Button Text="Zecoxao" Clicked="ZECOQ17"/>
-                <Button Text="Zer0xFF" Clicked="ZER0Q17"/>
-                <Button Text="DEFAULTDNB" Clicked="DEFAULTQ17"/>
-                <Button Text="CelesteBlue" Clicked="CELESTEQ17"/>
+                <Label FontAttributes="Bold" Text="What is the wrong PS4 name ? "></Label>
+                <Button Text="PS4 FAT" Clicked="FATQ18"/>
+                <Button Text="PS4 Slim " Clicked="SLIMQ18"/>
+                <Button Text="PS4 Ultra slim" Clicked="ULTRAQ18"/>
+                <Button Text="PS4 Pro" Clicked="PROQ18"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question19" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="What showed the first RTE tool ? "></Label>
+                <Button Text="kurt2467" Clicked="KURTQ19"/>
+                <Button Text="iMCSx" Clicked="IMCSXQ19"/>
+                <Button Text="D3cH" Clicked="D3CHQ19"/>
+                <Button Text="Shark" Clicked="SHARKQ19"/>
+            </StackLayout>
+        </Frame>
+        <Frame x:Name="question20" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
+            <StackLayout Orientation="Vertical">
+                <Label FontAttributes="Bold" Text="What developed the PS4Lib ? "></Label>
+                <Button Text="kurt2467" Clicked="KURTQ20"/>
+                <Button Text="Zecoxao" Clicked="ZECOQ20"/>
+                <Button Text="BISOON" Clicked="BISOONQ20"/>
+                <Button Text="iMCSx" Clicked="IMCSXQ20"/>
             </StackLayout>
         </Frame>
         

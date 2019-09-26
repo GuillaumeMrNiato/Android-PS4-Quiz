@@ -2006,11 +2006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\boost\\Desktop\\Android-PS4-Quiz-1.00-master\\Android-PS4-Quiz-1.00-master\\App1\\App1\\App1.Android\\App1.Android.csproj",
+      "projectUniqueName": "C:\\Users\\boost\\Documents\\GitHub\\Android-PS4-Quiz-1.00\\App1\\App1\\App1.Android\\App1.Android.csproj",
       "projectName": "App1.Android",
-      "projectPath": "C:\\Users\\boost\\Desktop\\Android-PS4-Quiz-1.00-master\\Android-PS4-Quiz-1.00-master\\App1\\App1\\App1.Android\\App1.Android.csproj",
+      "projectPath": "C:\\Users\\boost\\Documents\\GitHub\\Android-PS4-Quiz-1.00\\App1\\App1\\App1.Android\\App1.Android.csproj",
       "packagesPath": "C:\\Users\\boost\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\boost\\Desktop\\Android-PS4-Quiz-1.00-master\\Android-PS4-Quiz-1.00-master\\App1\\App1\\App1.Android\\obj\\",
+      "outputPath": "C:\\Users\\boost\\Documents\\GitHub\\Android-PS4-Quiz-1.00\\App1\\App1\\App1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2031,8 +2031,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\boost\\Desktop\\Android-PS4-Quiz-1.00-master\\Android-PS4-Quiz-1.00-master\\App1\\App1\\App1\\App1.csproj": {
-              "projectPath": "C:\\Users\\boost\\Desktop\\Android-PS4-Quiz-1.00-master\\Android-PS4-Quiz-1.00-master\\App1\\App1\\App1\\App1.csproj"
+            "C:\\Users\\boost\\Documents\\GitHub\\Android-PS4-Quiz-1.00\\App1\\App1\\App1\\App1.csproj": {
+              "projectPath": "C:\\Users\\boost\\Documents\\GitHub\\Android-PS4-Quiz-1.00\\App1\\App1\\App1\\App1.csproj"
             }
           }
         }
