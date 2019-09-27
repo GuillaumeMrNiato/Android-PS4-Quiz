@@ -11,11 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("PS4 Quiz 1.0")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MrNiato\'s Production")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("MrNiato - 2019")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("PS4 Quiz 1.0")]
+[assembly: System.Reflection.AssemblyProductAttribute("PS4 Scene Quiz 1.0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PS4 Quiz 1.0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

@@ -1,0 +1,11 @@
+C:\Users\boost\Documents\GitHub\Android-PS4-Quiz-1.00\App1\App1\App1\bin\Release\netstandard2.0\PS4 Quiz 1.0.deps.json
+C:\Users\boost\Documents\GitHub\Android-PS4-Quiz-1.00\App1\App1\App1\bin\Release\netstandard2.0\PS4 Quiz 1.0.dll
+C:\Users\boost\Documents\GitHub\Android-PS4-Quiz-1.00\App1\App1\App1\bin\Release\netstandard2.0\PS4 Quiz 1.0.pdb
+C:\Users\boost\Documents\GitHub\Android-PS4-Quiz-1.00\App1\App1\App1\obj\Release\netstandard2.0\App1.csprojAssemblyReference.cache
+C:\Users\boost\Documents\GitHub\Android-PS4-Quiz-1.00\App1\App1\App1\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\boost\Documents\GitHub\Android-PS4-Quiz-1.00\App1\App1\App1\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\boost\Documents\GitHub\Android-PS4-Quiz-1.00\App1\App1\App1\obj\Release\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\boost\Documents\GitHub\Android-PS4-Quiz-1.00\App1\App1\App1\obj\Release\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\boost\Documents\GitHub\Android-PS4-Quiz-1.00\App1\App1\App1\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\boost\Documents\GitHub\Android-PS4-Quiz-1.00\App1\App1\App1\obj\Release\netstandard2.0\PS4 Quiz 1.0.dll
+C:\Users\boost\Documents\GitHub\Android-PS4-Quiz-1.00\App1\App1\App1\obj\Release\netstandard2.0\PS4 Quiz 1.0.pdb
