@@ -664,32 +664,32 @@ namespace App1
         }
         #endregion
         #region Question 21
-        private void KURTQ21(object sender, EventArgs e)
+        private void Q2MUCH4UQ21(object sender, EventArgs e)
         {
-            question20.IsVisible = false;
-            question21.IsVisible = true;
+            question21.IsVisible = false;
+            question22.IsVisible = true;
             DisplayAlert("Information", "Incorrect answer !", "Ok");
             scorelabelingame.Text = "Here is your score : " + score.ToString() + " /25";
         }
         private void SEMJAESQ21(object sender, EventArgs e)
         {
-            question20.IsVisible = false;
-            question21.IsVisible = true;
+            question21.IsVisible = false;
+            question22.IsVisible = true;
             DisplayAlert("Information", "Incorrect answer !", "Ok");
             scorelabelingame.Text = "Here is your score : " + score.ToString() + " /25";
         }
         private void Q0X199Q21(object sender, EventArgs e)
         {
-            question20.IsVisible = false;
-            question21.IsVisible = true;
+            question21.IsVisible = false;
+            question22.IsVisible = true;
             score = score + 1;
             DisplayAlert("Information", "Good answer !", "Ok");
             scorelabelingame.Text = "Here is your score : " + score.ToString() + " /25";
         }
         private void TUSTINQ21(object sender, EventArgs e)
         {
-            question20.IsVisible = false;
-            question21.IsVisible = true;
+            question21.IsVisible = false;
+            question22.IsVisible = true;
             DisplayAlert("Information", "Incorrect answer !", "Ok");
             scorelabelingame.Text = "Here is your score : " + score.ToString() + " /25";
         }

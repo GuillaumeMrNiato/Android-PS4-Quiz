@@ -190,7 +190,7 @@
         <Frame x:Name="question21" CornerRadius="15" OutlineColor="DarkGray" BackgroundColor="WhiteSmoke" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5}">
             <StackLayout Orientation="Vertical">
                 <Label FontAttributes="Bold" Text="Who developed the Lotus menu for GTA V ? "></Label>
-                <Button Text="2much4u" Clicked="KURTQ21"/>
+                <Button Text="2much4u" Clicked="Q2MUCH4UQ21"/>
                 <Button Text="Semjasesdev" Clicked="SEMJAESQ21"/>
                 <Button Text="0x199" Clicked="Q0X199Q21"/>
                 <Button Text="Tustin" Clicked="TUSTINQ21"/>
@@ -242,6 +242,6 @@
         <Label x:Name="scorelabelingame" FontAttributes="Bold" Text="Here is your score : " VerticalOptions="Center" HorizontalOptions="Center"></Label>
         
         <BoxView VerticalOptions="EndAndExpand" HorizontalOptions="Center" HeightRequest="1" WidthRequest="700" Color="#5b5d68"></BoxView>
-        <Label FontAttributes="Bold" Text="Created By Guillaume MrNiato " VerticalOptions="EndAndExpand" HorizontalOptions="Center"></Label>
+        <Label FontAttributes="Bold" Text="Created By Guillaume MrNiato | Twitter : @ImMrNiato " VerticalOptions="EndAndExpand" HorizontalOptions="Center"></Label>
     </StackLayout>
 </ContentPage>

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "MonoAndroid,Version=v9.0": {
+    "MonoAndroid,Version=v10.0": {
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -1986,11 +1986,8 @@
     }
   },
   "projectFileDependencyGroups": {
-    "MonoAndroid,Version=v9.0": [
+    "MonoAndroid,Version=v10.0": [
       "PS4 Scene Quiz 1.0 >= 1.0.0",
-      "Xamarin.Android.Support.Core.Utils >= 28.0.0.1",
-      "Xamarin.Android.Support.CustomTabs >= 28.0.0.1",
-      "Xamarin.Android.Support.Design >= 28.0.0.1",
       "Xamarin.Android.Support.v4 >= 28.0.0.1",
       "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.1",
       "Xamarin.Android.Support.v7.CardView >= 28.0.0.1",
@@ -2022,14 +2019,14 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "monoandroid90"
+        "monoandroid10.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "monoandroid90": {
+        "monoandroid10.0": {
           "projectReferences": {
             "C:\\Users\\boost\\Documents\\GitHub\\Android-PS4-Quiz-1.00\\App1\\App1\\App1\\App1.csproj": {
               "projectPath": "C:\\Users\\boost\\Documents\\GitHub\\Android-PS4-Quiz-1.00\\App1\\App1\\App1\\App1.csproj"
@@ -2039,20 +2036,8 @@
       }
     },
     "frameworks": {
-      "monoandroid90": {
+      "monoandroid10.0": {
         "dependencies": {
-          "Xamarin.Android.Support.Core.Utils": {
-            "target": "Package",
-            "version": "[28.0.0.1, )"
-          },
-          "Xamarin.Android.Support.CustomTabs": {
-            "target": "Package",
-            "version": "[28.0.0.1, )"
-          },
-          "Xamarin.Android.Support.Design": {
-            "target": "Package",
-            "version": "[28.0.0.1, )"
-          },
           "Xamarin.Android.Support.v4": {
             "target": "Package",
             "version": "[28.0.0.1, )"

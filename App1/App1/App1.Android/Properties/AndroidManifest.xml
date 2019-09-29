@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="ps4quiz.mrniato" android:installLocation="preferExternal">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.04" package="ps4quiz.mrniato" android:installLocation="preferExternal" android:versionCode="5">
 	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="28" />
-	<application android:label="PS4.Quiz" android:icon="@drawable/home"></application>
+	<application android:label="PS4.Quiz" android:icon="@drawable/ps4"></application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>

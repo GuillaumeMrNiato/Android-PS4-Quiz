@@ -9,20 +9,16 @@ namespace App1
         public App()
         {
             InitializeComponent();
-
             MainPage = new MainPage();
         }
-
         protected override void OnStart()
         {
-            // Handle when your app starts
+            Current.MainPage.DisplayAlert("Information", "-PS4 Quiz By Guillaume MrNiato\n\nTwitter : @ImMrNiato", "Ok");
         }
-
         protected override void OnSleep()
         {
             // Handle when your app sleeps
         }
-
         protected override void OnResume()
         {
             // Handle when your app resumes
